@@ -1,7 +1,7 @@
 import { mergeSort } from '../index.js'
 import { expect } from 'chai'
 
-describe('bubbleSort()', function () {
+describe('mergeSort()', function () {
 
   it('should return an empty list if the input is an empty list', function () {
     expect(mergeSort([])).to.have.deep.ordered.members([])
