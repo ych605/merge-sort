@@ -1,8 +1,9 @@
 export const mergeSort = list => {
-  if (list.length <= 1) return list;
-  const mid = Math.ceil(list.length / 2);
-  const left = mergeSort(list.slice(0, mid))
-  const right = mergeSort(list.slice(mid))
+  const newList = [...list];
+  if (newList.length <= 1) return newList;
+  const mid = Math.ceil(newList.length / 2);
+  const left = mergeSort(newList.slice(0, mid))
+  const right = mergeSort(newList.slice(mid))
   const tList = []
   while (left.length > 0 && right.length > 0) {
     if (left[0] < right[0]) {
