@@ -1,0 +1,20 @@
+{
+	"name": "benchmarks",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"private": true,
+	"scripts": {
+		"benchmark": "ts-node -r esm index.spec.ts"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.12.10",
+		"@babel/plugin-transform-modules-commonjs": "^7.12.1",
+		"@tsconfig/node14": "^1.0.0",
+		"@types/node": "^14.14.22",
+		"benchmark": "^2.1.4",
+		"esm": "^3.2.25",
+		"fast-sort": "^2.2.0",
+		"ts-node": "^9.1.1"
+	}
+}
