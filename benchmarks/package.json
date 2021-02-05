@@ -12,6 +12,7 @@
 		"@babel/plugin-transform-modules-commonjs": "^7.12.1",
 		"@tsconfig/node14": "^1.0.0",
 		"@types/node": "^14.14.22",
+		"array-sort": "^1.0.0",
 		"benchmark": "^2.1.4",
 		"esm": "^3.2.25",
 		"fast-sort": "^2.2.0",
